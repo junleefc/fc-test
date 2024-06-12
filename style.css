@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body {
 header {
     background: #50b3a2;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -24,13 +24,27 @@ h1, h2 {
     max-width: 800px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#benefits ul li {
+    background: url('check.png') no-repeat left center;
+    background-size: 20px 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
 }
 
 .plan {
     border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 20px;
+    margin: 20px 0;
     text-align: center;
+    border-radius: 10px;
 }
 
 .plan h3 {
@@ -43,8 +57,39 @@ button {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 button:hover {
+    background: #3a8273;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background: #50b3a2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
     background: #3a8273;
 }

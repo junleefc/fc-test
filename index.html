@@ -1,45 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Health Food Subscription Service</title>
+    <title>헬씨라이프</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to HealthyLife</h1>
-        <p>Your personalized health food subscription service</p>
+        <h1>헬씨라이프에 오신 것을 환영합니다</h1>
+        <p>맞춤형 건강 식품 구독 서비스</p>
     </header>
     <section id="benefits">
-        <h2>Why Choose Us?</h2>
+        <h2>왜 저희를 선택해야 하나요?</h2>
         <ul>
-            <li>Customized meal plans</li>
-            <li>Fresh, high-quality ingredients</li>
-            <li>Convenient home delivery</li>
+            <li>맞춤형 식단 제공</li>
+            <li>신선하고 고품질의 재료</li>
+            <li>편리한 집 앞 배달</li>
         </ul>
     </section>
     <section id="plans">
-        <h2>Subscription Plans</h2>
+        <h2>구독 플랜</h2>
         <div class="plan">
-            <h3>Basic Plan</h3>
-            <p>$20/month</p>
-            <button onclick="subscribe('Basic')">Subscribe</button>
+            <h3>기본 플랜</h3>
+            <p>월 20,000원</p>
+            <button onclick="subscribe('기본')">구독하기</button>
         </div>
         <div class="plan">
-            <h3>Premium Plan</h3>
-            <p>$35/month</p>
-            <button onclick="subscribe('Premium')">Subscribe</button>
+            <h3>프리미엄 플랜</h3>
+            <p>월 35,000원</p>
+            <button onclick="subscribe('프리미엄')">구독하기</button>
         </div>
     </section>
     <section id="subscribe">
-        <h2>Subscribe Now</h2>
+        <h2>지금 구독하세요</h2>
         <form id="subscribe-form">
-            <label for="name">Name:</label>
+            <label for="name">이름:</label>
             <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
+            <label for="email">이메일:</label>
             <input type="email" id="email" name="email" required>
-            <button type="submit">Submit</button>
+            <button type="submit">제출</button>
         </form>
     </section>
     <script src="scripts.js"></script>
