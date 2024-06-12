@@ -16,7 +16,7 @@ header {
 
 .header-container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
@@ -38,9 +38,9 @@ header p {
     color: #fff;
 }
 
-#intro .intro-content {
+.intro-content {
     max-width: 800px;
-    margin: 0 auto;
+    margin: auto;
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
@@ -49,101 +49,4 @@ header p {
 #intro h2 {
     font-size: 2em;
     margin-bottom: 20px;
-}
-
-#intro button {
-    background: #50b3a2;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin: 10px;
-}
-
-#intro button:hover {
-    background: #3a8273;
-}
-
-#benefits, #plans, #subscribe {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-#benefits ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#benefits ul li {
-    background: url('https://source.unsplash.com/20x20/?check') no-repeat left center;
-    background-size: 20px 20px;
-    padding-left: 30px;
-    margin-bottom: 10px;
-}
-
-.plan {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 20px 0;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.plan h3 {
-    margin-top: 0;
-}
-
-button {
-    background: #50b3a2;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background: #3a8273;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    margin-top: 10px;
-}
-
-input {
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button[type="submit"] {
-    margin-top: 20px;
-    background: #50b3a2;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button[type="submit"]:hover {
-    background: #3a8273;
-}
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background: #50b3a2;
-    color: #fff;
 }
