@@ -8,9 +8,19 @@
 </head>
 <body>
     <header>
-        <h1>헬씨라이프에 오신 것을 환영합니다</h1>
-        <p>맞춤형 건강 식품 구독 서비스</p>
+        <div class="header-container">
+            <h1>헬씨라이프에 오신 것을 환영합니다</h1>
+            <p>맞춤형 건강 식품 구독 서비스</p>
+        </div>
     </header>
+    <section id="intro">
+        <div class="intro-content">
+            <h2>맞춤형 영양제를 스마트하게 시작하세요!</h2>
+            <button onclick="subscribe('추천')">AI 영양제 추천받기</button>
+            <button onclick="viewProducts()">모든 제품 보기</button>
+            <p>1,000,385명이 이미 시작했어요</p>
+        </div>
+    </section>
     <section id="benefits">
         <h2>왜 저희를 선택해야 하나요?</h2>
         <ul>
@@ -42,6 +52,9 @@
             <button type="submit">제출</button>
         </form>
     </section>
+    <footer>
+        <p>&copy; 2024 헬씨라이프. All rights reserved.</p>
+    </footer>
     <script src="scripts.js"></script>
 </body>
 </html>

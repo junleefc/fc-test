@@ -8,14 +8,61 @@ body {
 }
 
 header {
-    background: #50b3a2;
+    background: url('https://source.unsplash.com/1600x900/?health,wellness') no-repeat center center/cover;
     color: #fff;
-    padding: 20px 0;
+    padding: 80px 0;
     text-align: center;
 }
 
-h1, h2 {
-    margin: 0.5em 0;
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+#intro {
+    background: url('https://source.unsplash.com/1600x900/?nutrition') no-repeat center center/cover;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+#intro .intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#intro h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#intro button {
+    background: #50b3a2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#intro button:hover {
+    background: #3a8273;
 }
 
 #benefits, #plans, #subscribe {
@@ -33,7 +80,7 @@ h1, h2 {
 }
 
 #benefits ul li {
-    background: url('check.png') no-repeat left center;
+    background: url('https://source.unsplash.com/20x20/?check') no-repeat left center;
     background-size: 20px 20px;
     padding-left: 30px;
     margin-bottom: 10px;
@@ -80,7 +127,7 @@ input {
     border-radius: 5px;
 }
 
-input[type="submit"] {
+button[type="submit"] {
     margin-top: 20px;
     background: #50b3a2;
     color: #fff;
@@ -90,6 +137,13 @@ input[type="submit"] {
     border-radius: 5px;
 }
 
-input[type="submit"]:hover {
+button[type="submit"]:hover {
     background: #3a8273;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #50b3a2;
+    color: #fff;
 }
