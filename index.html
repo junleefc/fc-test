@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Food Subscription Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to HealthyLife</h1>
+        <p>Your personalized health food subscription service</p>
+    </header>
+    <section id="benefits">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>Customized meal plans</li>
+            <li>Fresh, high-quality ingredients</li>
+            <li>Convenient home delivery</li>
+        </ul>
+    </section>
+    <section id="plans">
+        <h2>Subscription Plans</h2>
+        <div class="plan">
+            <h3>Basic Plan</h3>
+            <p>$20/month</p>
+            <button onclick="subscribe('Basic')">Subscribe</button>
+        </div>
+        <div class="plan">
+            <h3>Premium Plan</h3>
+            <p>$35/month</p>
+            <button onclick="subscribe('Premium')">Subscribe</button>
+        </div>
+    </section>
+    <section id="subscribe">
+        <h2>Subscribe Now</h2>
+        <form id="subscribe-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
